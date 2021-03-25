@@ -8,10 +8,10 @@ jobs:
       - checkout
       - run: ssh -i -v ${VPS_USER}@${VPS_IP} "~/deploy.sh"
 workflows:
-   version: 2
+  version: 2
   build-project:
     jobs:
-     - build:
+      - build:
           filters:
             branches:
               only:
