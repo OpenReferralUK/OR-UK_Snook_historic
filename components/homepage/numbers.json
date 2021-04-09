@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_numbers",
+  "info": {
+    "name": "numbers",
+    "icon": "sort-numeric-up"
+  },
+  "options": {},
+  "attributes": {
+    "considering": {
+      "type": "integer"
+    },
+    "adopting": {
+      "type": "integer"
+    },
+    "adopted": {
+      "type": "integer"
+    }
+  }
+}
