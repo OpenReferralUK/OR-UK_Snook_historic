@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_links",
+  "info": {
+    "name": "Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "TextToDisplay": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

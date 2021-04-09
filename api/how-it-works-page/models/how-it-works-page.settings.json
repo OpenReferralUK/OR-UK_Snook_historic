@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "how_it_works_page",
+  "info": {
+    "name": "How It Works Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "HowItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.landing-page"
+    }
+  }
+}
