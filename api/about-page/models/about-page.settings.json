@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page",
+  "info": {
+    "name": "About Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "article.article"
+    }
+  }
+}
