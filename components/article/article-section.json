@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_article_article_sections",
+  "info": {
+    "name": "articleSection",
+    "icon": "paragraph"
+  },
+  "options": {},
+  "attributes": {
+    "sectionHeading": {
+      "type": "string",
+      "required": false
+    },
+    "sectionBody": {
+      "type": "richtext"
+    }
+  }
+}
