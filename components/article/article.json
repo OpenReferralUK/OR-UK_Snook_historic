@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_article_articles",
+  "info": {
+    "name": "article",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "article.article-section",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ReadNextLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}

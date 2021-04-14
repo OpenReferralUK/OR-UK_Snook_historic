@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "name": "Case Studies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "CaseStudy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "article.article"
+    }
+  }
+}

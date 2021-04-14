@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_pull_quotes",
+  "info": {
+    "name": "Pull Quote",
+    "icon": "quote-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "text"
+    },
+    "Attribution": {
+      "type": "string"
+    }
+  }
+}

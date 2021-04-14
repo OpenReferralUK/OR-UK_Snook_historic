@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "community_page",
+  "info": {
+    "name": "Community Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "communityPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.landing-page"
+    }
+  }
+}

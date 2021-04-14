@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_landing_pages",
+  "info": {
+    "name": "Landing Page",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    }
+  }
+}

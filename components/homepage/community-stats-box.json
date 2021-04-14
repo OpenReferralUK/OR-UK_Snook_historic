@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_homepage_community_stats_boxes",
+  "info": {
+    "name": "Stats Box",
+    "icon": "digital-tachograph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.numbers"
+    },
+    "OrganisationsIntroText": {
+      "type": "text"
+    },
+    "CompanyLogo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "community.company-logo"
+    }
+  }
+}
