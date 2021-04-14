@@ -17,9 +17,6 @@
     "label": {
       "type": "string"
     },
-    "sub_menu": {
-      "model": "sub-menu"
-    },
     "ShowOnFooter": {
       "type": "boolean"
     }
