@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/case-studies-list-page",
+      "handler": "case-studies-list-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/case-studies-list-page",
+      "handler": "case-studies-list-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/case-studies-list-page",
+      "handler": "case-studies-list-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
