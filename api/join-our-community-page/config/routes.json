@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/join-our-community-page",
+      "handler": "join-our-community-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/join-our-community-page",
+      "handler": "join-our-community-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/join-our-community-page",
+      "handler": "join-our-community-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
