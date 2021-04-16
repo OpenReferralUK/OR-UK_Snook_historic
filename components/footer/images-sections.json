@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footer_images_sections",
+  "info": {
+    "name": "imagesSections",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "governanceBoardLogos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "community.company-logo"
+    }
+  }
+}

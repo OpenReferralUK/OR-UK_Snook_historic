@@ -2,14 +2,15 @@
   "collectionName": "components_common_links",
   "info": {
     "name": "Link",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "TextToDisplay": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "url": {
       "type": "string",
