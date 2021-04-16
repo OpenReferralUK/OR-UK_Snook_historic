@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "aboutLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-section"
+    },
+    "howItWorksLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-section"
+    },
+    "communityLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-section"
+    },
+    "governanceBoardSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.images-sections"
+    },
+    "getInvolved": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-link"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-link"
+    },
+    "technicalFeedbackLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer-link"
+    },
+    "footerLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "documentationAndToolsLinkLabel": {
+      "type": "string"
+    },
+    "copyrightNotice": {
+      "type": "string"
+    },
+    "privacyPolicyLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    },
+    "accessibilityStatementLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    }
+  }
+}
