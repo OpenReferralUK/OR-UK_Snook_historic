@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "case_studies",
   "info": {
-    "name": "Case Studies"
+    "name": "Case Studies",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,6 +15,15 @@
       "type": "component",
       "repeatable": false,
       "component": "article.article"
+    },
+    "slugfield": {
+      "type": "string",
+      "regex": "^[a-z0-9-()]+$",
+      "unique": true,
+      "required": true
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
