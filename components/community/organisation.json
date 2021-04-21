@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_community_organisations",
+  "info": {
+    "name": "Organisation",
+    "icon": "briefcase-medical"
+  },
+  "options": {},
+  "attributes": {
+    "organisationLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "community.company-logo"
+    },
+    "orgTitle": {
+      "type": "string"
+    },
+    "orgLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
+    }
+  }
+}
