@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/who-is-using-oruk-page",
+      "handler": "who-is-using-oruk-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/who-is-using-oruk-page",
+      "handler": "who-is-using-oruk-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/who-is-using-oruk-page",
+      "handler": "who-is-using-oruk-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

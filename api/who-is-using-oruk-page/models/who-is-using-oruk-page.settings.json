@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "who_is_using_oruk_page",
+  "info": {
+    "name": "Who is using ORUK Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pageTitle": {
+      "type": "string"
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.numbers"
+    },
+    "registerLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link-with-title"
+    },
+    "caseStudiesLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    },
+    "orgSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "community.organisation-section"
+    },
+    "underNumbersText": {
+      "type": "string"
+    }
+  }
+}
