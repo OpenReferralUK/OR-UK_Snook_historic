@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_community_organisations_sections",
+  "info": {
+    "name": "Organisations Section",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Organisation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "community.organisation"
+    }
+  }
+}
