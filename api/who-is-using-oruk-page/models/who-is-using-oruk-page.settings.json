@@ -19,7 +19,7 @@
       "repeatable": false,
       "component": "homepage.numbers"
     },
-    "registerLink": {
+    "registerLinkWithTitle": {
       "type": "component",
       "repeatable": false,
       "component": "common.link-with-title"
@@ -36,6 +36,11 @@
     },
     "underNumbersText": {
       "type": "string"
+    },
+    "registerLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
     }
   }
 }
