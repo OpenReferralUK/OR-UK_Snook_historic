@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_text_with_icons",
+  "info": {
+    "name": "Text with icon",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "benefitText": {
+      "type": "text"
+    }
+  }
+}

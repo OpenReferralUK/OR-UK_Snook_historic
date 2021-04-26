@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_list_with_icons",
+  "info": {
+    "name": "List with icons",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "introParagraph": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.text-with-icon"
+    },
+    "afterLinkParagraph": {
+      "type": "richtext"
+    }
+  }
+}

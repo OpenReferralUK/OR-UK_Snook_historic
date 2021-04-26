@@ -31,6 +31,16 @@
       "type": "component",
       "repeatable": false,
       "component": "homepage.community-stats-box"
+    },
+    "caseStudiesLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link"
+    },
+    "benefitsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.list-with-icons"
     }
   }
 }
