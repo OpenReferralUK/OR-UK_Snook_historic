@@ -24,9 +24,6 @@
       "repeatable": false,
       "component": "common.pull-quote"
     },
-    "BenefitsAndOpportunities": {
-      "type": "richtext"
-    },
     "CommunityStatsBox": {
       "type": "component",
       "repeatable": false,
