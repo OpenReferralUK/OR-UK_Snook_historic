@@ -38,6 +38,11 @@
       "type": "component",
       "repeatable": false,
       "component": "common.list-with-icons"
+    },
+    "readNextLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.link"
     }
   }
 }
