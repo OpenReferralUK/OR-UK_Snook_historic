@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "TextToDisplay": {
+    "textToDisplay": {
       "type": "string",
       "required": true,
       "unique": false
