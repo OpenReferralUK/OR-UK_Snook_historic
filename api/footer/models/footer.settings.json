@@ -46,17 +46,6 @@
       "repeatable": false,
       "component": "footer.footer-link"
     },
-    "footerLogo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "documentationAndToolsLinkLabel": {
       "type": "string"
     },
